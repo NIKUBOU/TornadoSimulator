@@ -11,10 +11,7 @@ public class Torndao : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Fly")
-        {
-            StartCoroutine(PullObject(other, true));
-        }
+
     }
 
     private void OnTriggerExit(Collider other)
@@ -30,6 +27,11 @@ public class Torndao : MonoBehaviour
         if (other.tag == "Structure")
         {
             other.GetComponent<BuildingHealth>().LoseHealth();
+        }
+
+        if (other.tag == "Fly")
+        {
+            StartCoroutine(PullObject(other, true));
         }
     }
 

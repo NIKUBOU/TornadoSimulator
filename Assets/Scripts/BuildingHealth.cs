@@ -6,21 +6,12 @@ public class BuildingHealth : MonoBehaviour
 {
     [Header("Building Parts")]
     [SerializeField] private List<GameObject> structures;
+    [SerializeField] private GameObject property;
 
     [Space(10)]
     [Header("Structure Stats")]
     [SerializeField] private float health = 100f;
     [SerializeField] private float healthLossRate = 0.5f;
-
-    private int listSize = 0;
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Tornado")
-        {
-            health -= Time.deltaTime * healthLossRate;
-        }
-    }
 
     public void LoseHealth()
     {
@@ -40,6 +31,7 @@ public class BuildingHealth : MonoBehaviour
         if (health <= 0f)
         {
             structures[2].tag = "Fly";
+            property.tag = "Destroyed";
         }
     }
 }

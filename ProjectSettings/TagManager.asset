@@ -8,6 +8,7 @@ TagManager:
   - Tornado
   - Structure
   - NPC
+  - Destroyed
   layers:
   - Default
   - TransparentFX

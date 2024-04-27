@@ -16,6 +16,7 @@ public class NPCMovement : MonoBehaviour
     [SerializeField] private List<Transform> thirdRow;
 
     private Transform currentTarget;
+    private bool crying = false;
 
     // Start is called before the first frame update
     void Start()
@@ -41,7 +42,12 @@ public class NPCMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MoveNPC();
+        crying = gameObject.GetComponent<NPCBuildingDetection>().crying;
+
+        if (!crying)
+            MoveNPC();
+        else
+            agent.SetDestination(gameObject.transform.position);
     }
 
     public Transform GetTargetTransform()
