@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Torndao : MonoBehaviour
@@ -21,6 +22,14 @@ public class Torndao : MonoBehaviour
         if (other.tag == "Fly")
         {
             StartCoroutine(PullObject(other, false));
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "Structure")
+        {
+            other.GetComponent<BuildingHealth>().LoseHealth();
         }
     }
 
