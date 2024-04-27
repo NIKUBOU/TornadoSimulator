@@ -29,17 +29,20 @@ public class BuildingHealth : MonoBehaviour
 
     void Update()
     {
-        if (health <= 50f)
+        if (health <= 50f && structures[0].tag != "Fly")
         {
             structures[0].tag = "Fly";
+            Debug.Log("Test 0");
         }
-        if (health <= 25f)
+        if (health <= 25f && structures[1].tag != "Fly")
         {
             structures[1].tag = "Fly";
+            Debug.Log("Test 1");
         }
-        if (health <= 0f)
+        if (health <= 0f && structures[2].tag != "Fly")
         {
             structures[2].tag = "Fly";
+            Debug.Log("Test 2");
         }
     }
 }
