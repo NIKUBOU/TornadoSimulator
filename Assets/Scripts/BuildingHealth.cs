@@ -12,6 +12,10 @@ public class BuildingHealth : MonoBehaviour
     [SerializeField] private float health = 100f;
     [SerializeField] private float healthLossRate = 0.5f;
 
+    [Space(10)]
+    [Header("Manager")]
+    public GameManager gameManager;
+
     private int listSize = 0;
 
     private void OnTriggerEnter(Collider other)
@@ -32,17 +36,17 @@ public class BuildingHealth : MonoBehaviour
         if (health <= 50f && structures[0].tag != "Fly")
         {
             structures[0].tag = "Fly";
-            Debug.Log("Test 0");
+            gameManager.ReceiveSignal("Signal1");
         }
         if (health <= 25f && structures[1].tag != "Fly")
         {
             structures[1].tag = "Fly";
-            Debug.Log("Test 1");
+            gameManager.ReceiveSignal("Signal1");
         }
         if (health <= 0f && structures[2].tag != "Fly")
         {
             structures[2].tag = "Fly";
-            Debug.Log("Test 2");
+            gameManager.ReceiveSignal("Signal1");
         }
     }
 }
