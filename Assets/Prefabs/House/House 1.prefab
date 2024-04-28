@@ -67,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -1700891280355908593, guid: fffd678d7f2a2f645a94ecd6e9dd22dc, type: 3}
+  - {fileID: 2100000, guid: 2611a818635e2064a8d9f826b4653cfc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -200,7 +200,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4955249067623901878, guid: fffd678d7f2a2f645a94ecd6e9dd22dc, type: 3}
+  - {fileID: 2100000, guid: f8168932d3cd43e41b89f9883504f423, type: 2}
   - {fileID: -1941063384106344331, guid: fffd678d7f2a2f645a94ecd6e9dd22dc, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -334,9 +334,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8879679118528569720, guid: fffd678d7f2a2f645a94ecd6e9dd22dc, type: 3}
-  - {fileID: 4955249067623901878, guid: fffd678d7f2a2f645a94ecd6e9dd22dc, type: 3}
-  - {fileID: -1941063384106344331, guid: fffd678d7f2a2f645a94ecd6e9dd22dc, type: 3}
+  - {fileID: 2100000, guid: f8168932d3cd43e41b89f9883504f423, type: 2}
+  - {fileID: 2100000, guid: 92de5e93f8e93384983700237b9d79b4, type: 2}
+  - {fileID: 2100000, guid: b7fab4b2fa0ec0840ab2eca9b68cdb1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -470,7 +470,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4955249067623901878, guid: fffd678d7f2a2f645a94ecd6e9dd22dc, type: 3}
+  - {fileID: 2100000, guid: f8168932d3cd43e41b89f9883504f423, type: 2}
   - {fileID: -1941063384106344331, guid: fffd678d7f2a2f645a94ecd6e9dd22dc, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -626,7 +626,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2926557707537190794, guid: fffd678d7f2a2f645a94ecd6e9dd22dc, type: 3}
+  - {fileID: 2100000, guid: f8168932d3cd43e41b89f9883504f423, type: 2}
   - {fileID: 4955249067623901878, guid: fffd678d7f2a2f645a94ecd6e9dd22dc, type: 3}
   - {fileID: -1941063384106344331, guid: fffd678d7f2a2f645a94ecd6e9dd22dc, type: 3}
   - {fileID: -1722814301639207399, guid: fffd678d7f2a2f645a94ecd6e9dd22dc, type: 3}

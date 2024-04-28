@@ -28,6 +28,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Cull: 0
+    - _Metallic: 0.1
     m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &8479125307369240334
