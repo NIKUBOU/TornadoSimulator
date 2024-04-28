@@ -9,11 +9,9 @@ public class NPCBuildingDetection : MonoBehaviour
     [SerializeField] public float cryingTime;
     [SerializeField] private bool emotional;
     [SerializeField] public bool crying;
-    public GameManager gameManager;
 
     private float cryTime;
     private float coolTime;
-    private bool addAlarm = false;
 
     private void Start()
     {
@@ -40,7 +38,6 @@ public class NPCBuildingDetection : MonoBehaviour
         if (emotional)
         {
             crying = true;
-            addAlarm = true;
         }
     }
 
@@ -52,11 +49,6 @@ public class NPCBuildingDetection : MonoBehaviour
             crying = false;
             cryingTime = cryTime;
             cooldownTimer = coolTime;
-        }
-        if (addAlarm)
-        {
-            addAlarm = false;
-            gameManager.ReceiveSignal("Signal2");
         }
     }
 }

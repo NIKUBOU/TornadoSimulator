@@ -8349,6 +8349,7 @@ MonoBehaviour:
   force: 1000
   perpForceDirection: 0.75
   refresh: 2
+  gameManager: {fileID: 1660413361}
 --- !u!54 &546709471
 Rigidbody:
   m_ObjectHideFlags: 0

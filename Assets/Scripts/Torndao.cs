@@ -10,6 +10,8 @@ public class Torndao : MonoBehaviour
     [SerializeField] private float perpForceDirection;
     [SerializeField] private float refresh;
 
+    public GameManager gameManager;
+
     private List<GameObject> objects = new List<GameObject> { };
 
     private bool pulled;
@@ -19,6 +21,11 @@ public class Torndao : MonoBehaviour
         if (!objects.Contains(other.gameObject))
         {
             objects.Add(other.gameObject);
+        }
+
+        if (other.tag == "NPC")
+        {
+            gameManager.ReceiveSignal("Signal2");
         }
     }
 
