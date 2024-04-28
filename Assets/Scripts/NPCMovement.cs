@@ -19,30 +19,8 @@ public class NPCMovement : MonoBehaviour
     [SerializeField] private List<Transform> sixthRow;
     [SerializeField] private List<Transform> seventhRow;
 
-    private Transform currentTarget;
+    [SerializeField] private Transform currentTarget;
     private bool crying = false;
-    private bool groundCheck;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        int ranNum = Random.Range(0, 3);
-        if (ranNum == 0)
-        {
-            ranNum = Random.Range(0, firstRow.Count);
-            currentTarget = firstRow[ranNum];
-        }
-        else if(ranNum == 1)
-        {
-            ranNum = Random.Range(0, secondRow.Count);
-            currentTarget = firstRow[ranNum];
-        }
-        else if (ranNum == 2)
-        {
-            ranNum = Random.Range(0, thirdRow.Count);
-            currentTarget = firstRow[ranNum];
-        }
-    }
 
     // Update is called once per frame
     void Update()
