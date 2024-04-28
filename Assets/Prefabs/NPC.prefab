@@ -146,8 +146,6 @@ MonoBehaviour:
   cryingTime: 2.5
   emotional: 0
   crying: 0
-  gameManager: {fileID: 783260590251878621, guid: 075b5a8da3f1efc4481e5693694fbcb8,
-    type: 3}
 --- !u!114 &3194556392878829445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,6 +328,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Human_mesh@Walking
       objectReference: {fileID: 0}
+    - target: {fileID: 5557832249251390885, guid: b42a87436d95f8a428b67e7045e56d52,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9de8746bb86834440b2d9a0905784ef8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
