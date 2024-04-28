@@ -20,13 +20,13 @@ public class BuildingHealth : MonoBehaviour
 
     private int listSize = 0;
 
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Tornado")
         {
             health -= Time.deltaTime * healthLossRate;
         }
-    }
+    }*/
 
     public void LoseHealth()
     {
@@ -48,9 +48,7 @@ public class BuildingHealth : MonoBehaviour
         if (health <= 0f && structures[2].tag != "Fly")
         {
             structures[2].tag = "Fly";
-
             property.tag = "Destroyed";
-
             gameManager.ReceiveSignal("Signal1");
 
         }

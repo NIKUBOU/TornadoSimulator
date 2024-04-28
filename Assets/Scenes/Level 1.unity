@@ -6745,7 +6745,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   center: {fileID: 68917294}
-  force: 500
+  force: 1000
+  perpForceDirection: 0.75
   refresh: 2
 --- !u!54 &546709471
 Rigidbody:
