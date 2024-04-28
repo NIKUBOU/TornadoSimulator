@@ -17,6 +17,7 @@ public class NPCMovement : MonoBehaviour
 
     private Transform currentTarget;
     private bool crying = false;
+    private bool groundCheck;
 
     // Start is called before the first frame update
     void Start()
@@ -232,5 +233,16 @@ public class NPCMovement : MonoBehaviour
     private void MoveNPC()
     {
         agent.SetDestination(currentTarget.position);
+    }
+
+    public void ReWarp()
+    {
+        NavMeshHit navMeshHit;
+        if(NavMesh.SamplePosition(gameObject.GetComponent<Rigidbody>().position, out navMeshHit, 0.5f, NavMesh.AllAreas)) 
+        {
+            agent.Warp(navMeshHit.position);
+            agent.updatePosition = true;
+            agent.SetDestination(navMeshHit.position);
+        }
     }
 }
