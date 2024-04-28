@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 408141999908695123}
   - component: {fileID: 2650467559756997424}
   - component: {fileID: 4137508084739688932}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House1_Model
   m_TagString: Structure
   m_Icon: {fileID: 0}
@@ -150,7 +150,7 @@ GameObject:
   - component: {fileID: 4253030375518789420}
   - component: {fileID: 7923127896084696797}
   - component: {fileID: 6442894862761304451}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House_wall_Left
   m_TagString: Structure
   m_Icon: {fileID: 0}
@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 6264537517550690910}
   - component: {fileID: 6616386199405960872}
   - component: {fileID: 3357670335743915390}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House_wall_back
   m_TagString: Structure
   m_Icon: {fileID: 0}
@@ -420,7 +420,7 @@ GameObject:
   - component: {fileID: 5765505942722760505}
   - component: {fileID: 1368663141580329002}
   - component: {fileID: 8850334932959732190}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House_wall_Right
   m_TagString: Structure
   m_Icon: {fileID: 0}
@@ -576,7 +576,7 @@ GameObject:
   - component: {fileID: 194395566928977509}
   - component: {fileID: 8332818082206514577}
   - component: {fileID: 1186157094785069706}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House_wall_front
   m_TagString: Structure
   m_Icon: {fileID: 0}
@@ -711,7 +711,7 @@ GameObject:
   - component: {fileID: 1549013357108185781}
   - component: {fileID: 4687411939435333069}
   - component: {fileID: 107962903520242760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PropertyLine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -776,7 +776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9214167330330670682}
   - component: {fileID: 1765261023804821094}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
