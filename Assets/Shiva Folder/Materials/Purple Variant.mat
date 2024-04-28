@@ -43,5 +43,6 @@ Material:
     - _Cull: 0
     - _Metallic: 0.3
     - _Smoothness: 0
-    m_Colors: []
+    m_Colors:
+    - _Color: {r: 0.90646124, g: 0.5292415, b: 0.8232415, a: 1}
   m_BuildTextureStacks: []

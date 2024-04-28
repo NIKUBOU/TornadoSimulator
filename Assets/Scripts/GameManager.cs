@@ -17,6 +17,9 @@ public class GameManager : MonoBehaviour
     public delegate void SignalReceived();
     private Dictionary<string, SignalReceived> signalDictionary = new Dictionary<string, SignalReceived>();
 
+    private string victorySceneName = "Win";
+    private string loseSceneName = "Lose";
+
     //Sadness Event
     public void IncreaseSadness()
     {
@@ -80,5 +83,38 @@ public class GameManager : MonoBehaviour
         // Subscribe to the delegate
         signalDictionary[signalName] += signalDelegate;
     }
+
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (sadnessValue >= 100)
+        {
+            //SwitchToVictoryScene();
+            SwitchToScene(victorySceneName);
+        }
+
+        if (alarmValue >= 100)
+        {
+            //SwitchToLoseScene();
+            SwitchToScene(loseSceneName);
+        }
+    }
+
+    /*void SwitchToVictoryScene()
+    {
+        Application.LoadLevel("Win");
+    }*/
+
+    /*void SwitchToLoseScene()
+    {
+        Application.LoadLevel("Lose");
+    }*/
+    void SwitchToScene(string sceneName)
+    {
+        // Load the specified scene
+        Application.LoadLevel(sceneName);
+    }
+
 }
 

@@ -30064,7 +30064,12 @@ PrefabInstance:
     - target: {fileID: 783260590251878621, guid: 075b5a8da3f1efc4481e5693694fbcb8,
         type: 3}
       propertyPath: sadnessBonus
-      value: 2.5
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 783260590251878621, guid: 075b5a8da3f1efc4481e5693694fbcb8,
+        type: 3}
+      propertyPath: alarmIncrease
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2728402558968300645, guid: 075b5a8da3f1efc4481e5693694fbcb8,
         type: 3}
