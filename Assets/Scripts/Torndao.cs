@@ -7,21 +7,26 @@ public class Torndao : MonoBehaviour
 {
     [SerializeField] private Transform center;
     [SerializeField] private float force;
+    [SerializeField] private float perpForceDirection;
     [SerializeField] private float refresh;
+
+    private List<GameObject> objects = new List<GameObject> { };
+
+    private bool pulled;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Fly")
+        if (!objects.Contains(other.gameObject))
         {
-            StartCoroutine(PullObject(other, true));
+            objects.Add(other.gameObject);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Fly")
+        if (objects.Contains(other.gameObject))
         {
-            StartCoroutine(PullObject(other, false));
+            objects.Remove(other.gameObject);
         }
     }
 
@@ -33,14 +38,34 @@ public class Torndao : MonoBehaviour
         }
     }
 
-    IEnumerator PullObject(Collider collider, bool pulled)
+    IEnumerator PullObject(Collider collider)
     {
-        if (pulled)
+        while (pulled)
         {
             Vector3 forceDir = center.position - collider.transform.position;
             collider.GetComponent<Rigidbody>().AddForce(forceDir.normalized * force * Time.deltaTime);
-            yield return refresh;
-            StartCoroutine(PullObject(collider, pulled));
+            yield return new WaitForEndOfFrame();
+        }
+        yield return null;
+    }
+
+    private void FixedUpdate()
+    {
+        foreach (GameObject obj in objects)
+        {
+            if (obj.tag == "Fly")
+            {
+                Vector3 forceDir = center.position - obj.GetComponent<Collider>().transform.position;
+                Vector3 perpForce = Vector3.Cross(forceDir.normalized, Vector3.up);
+                obj.GetComponent<Collider>().GetComponent<Rigidbody>().AddForce((Vector3.Lerp(perpForce.normalized, forceDir.normalized, perpForceDirection)).normalized * force * Time.deltaTime);
+            }
+            else if (obj.tag == "NPC")
+            {
+                obj.GetComponent<NPCFlight>().FlyAway();
+                Vector3 forceDir = center.position - obj.GetComponent<Collider>().transform.position;
+                Vector3 perpForce = Vector3.Cross(forceDir.normalized, Vector3.up);
+                obj.GetComponent<Collider>().GetComponent<Rigidbody>().AddForce((Vector3.Lerp(perpForce.normalized, forceDir.normalized, perpForceDirection)).normalized * force * Time.deltaTime);
+            }
         }
     }
 }

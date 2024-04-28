@@ -6,11 +6,13 @@ public class BuildingHealth : MonoBehaviour
 {
     [Header("Building Parts")]
     [SerializeField] private List<GameObject> structures;
+    [SerializeField] private GameObject property;
 
     [Space(10)]
     [Header("Structure Stats")]
     [SerializeField] private float health = 100f;
     [SerializeField] private float healthLossRate = 0.5f;
+
 
     [Space(10)]
     [Header("Manager")]
@@ -46,7 +48,11 @@ public class BuildingHealth : MonoBehaviour
         if (health <= 0f && structures[2].tag != "Fly")
         {
             structures[2].tag = "Fly";
+
+            property.tag = "Destroyed";
+
             gameManager.ReceiveSignal("Signal1");
+
         }
     }
 }
