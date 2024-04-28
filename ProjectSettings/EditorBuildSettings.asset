@@ -9,9 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Scenes/Tite Screen.unity
+    guid: a416b400e6bea0040bdd35a888c041a5
+  - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: c4d473e4b1d1eb841800fcb6fa311403
   - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: 218f6c9abd4a1f745ba1c756c5261d19
+  - enabled: 1
+    path: Assets/Scenes/Lose.unity
+    guid: 2e447ba48e5001041ac513f4ce9b8a33
   m_configObjects: {}
