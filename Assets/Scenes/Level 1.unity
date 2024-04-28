@@ -986,6 +986,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -4939,6 +4944,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -5174,6 +5184,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -7308,6 +7323,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -8812,6 +8832,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -20114,6 +20139,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -26526,6 +26556,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -27353,6 +27388,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -27576,6 +27616,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -28313,6 +28358,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -29285,6 +29335,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -30528,6 +30583,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -31182,6 +31242,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -32936,6 +33001,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -33239,6 +33309,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6491821245505943331, guid: b7978075bf274ac428f3f4164ae7e25b,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1660413361}
     - target: {fileID: 7969022236263428273, guid: b7978075bf274ac428f3f4164ae7e25b,
         type: 3}
       propertyPath: m_Name
@@ -33328,12 +33403,12 @@ PrefabInstance:
     - target: {fileID: 783260590251878621, guid: 075b5a8da3f1efc4481e5693694fbcb8,
         type: 3}
       propertyPath: sadnessBonus
-      value: 25
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 783260590251878621, guid: 075b5a8da3f1efc4481e5693694fbcb8,
         type: 3}
       propertyPath: alarmIncrease
-      value: 25
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2728402558968300645, guid: 075b5a8da3f1efc4481e5693694fbcb8,
         type: 3}
