@@ -35,22 +35,29 @@ public class BuildingHealth : MonoBehaviour
 
     void Update()
     {
-        if (health <= 50f && structures[0].tag != "Fly")
+        if (health <= 90f && structures[0].tag != "Fly")
         {
             structures[0].tag = "Fly";
-            gameManager.ReceiveSignal("Signal1");
         }
-        if (health <= 25f && structures[1].tag != "Fly")
+        if (health <= 75f && structures[1].tag != "Fly")
         {
             structures[1].tag = "Fly";
-            gameManager.ReceiveSignal("Signal1");
         }
-        if (health <= 0f && structures[2].tag != "Fly")
+        if (health <= 50f && structures[2].tag != "Fly")
         {
             structures[2].tag = "Fly";
+            gameManager.ReceiveSignal("Signal1");
+        }
+        if (health <= 25f && structures[3].tag != "Fly")
+        {
+            structures[3].tag = "Fly";
+            gameManager.ReceiveSignal("Signal1");
+        }
+        if (health <= 0f && structures[4].tag != "Fly")
+        {
+            structures[4].tag = "Fly";
             property.tag = "Destroyed";
             gameManager.ReceiveSignal("Signal1");
-
         }
     }
 }
