@@ -501,7 +501,19 @@ public class NPCMovement : MonoBehaviour
             }
             else if (ranNum == 2)
             {
-                currentTarget = fourthRow[3];
+                currentTarget = fourthRow[4];
+            }
+        }
+        else if (index == 4)
+        {
+            int ranNum = Random.Range(0, 2);
+            if (ranNum == 0)
+            {
+                currentTarget = sixthRow[3];
+            }
+            else if (ranNum == 1)
+            {
+                currentTarget = fifthRow[index - 1];
             }
         }
     }
@@ -513,39 +525,63 @@ public class NPCMovement : MonoBehaviour
             int ranNum = Random.Range(0, 2);
             if (ranNum == 0)
             {
-                currentTarget = thirdRow[index + 1];
+                currentTarget = sixthRow[index + 1];
             }
             else if (ranNum == 1)
             {
-                currentTarget = secondRow[index];
+                currentTarget = fourthRow[0];
             }
         }
         else if (index == 1)
         {
-            int ranNum = Random.Range(0, 3);
+            int ranNum = Random.Range(0, 4);
             if (ranNum == 0)
             {
-                currentTarget = thirdRow[index + 1];
+                currentTarget = sixthRow[index + 1];
             }
             else if (ranNum == 1)
             {
-                currentTarget = thirdRow[index - 1];
+                currentTarget = sixthRow[index - 1];
             }
             else if (ranNum == 2)
             {
-                currentTarget = secondRow[index];
+                currentTarget = fifthRow[1];
+            }
+            else if (ranNum == 3)
+            {
+                currentTarget = seventhRow[0];
             }
         }
         else if (index == 2)
         {
-            int ranNum = Random.Range(0, 2);
+            int ranNum = Random.Range(0, 4);
             if (ranNum == 0)
             {
-                currentTarget = thirdRow[index - 1];
+                currentTarget = sixthRow[index + 1];
             }
             else if (ranNum == 1)
             {
-                currentTarget = secondRow[index];
+                currentTarget = sixthRow[index - 1];
+            }
+            else if (ranNum == 2)
+            {
+                currentTarget = fifthRow[2];
+            }
+            else if (ranNum == 3)
+            {
+                currentTarget = seventhRow[1];
+            }
+        }
+        else if (index == 3)
+        {
+            int ranNum = Random.Range(0, 2);
+            if (ranNum == 0)
+            {
+                currentTarget = fifthRow[4];
+            }
+            else if (ranNum == 1)
+            {
+                currentTarget = sixthRow[index - 1];
             }
         }
     }
@@ -557,39 +593,23 @@ public class NPCMovement : MonoBehaviour
             int ranNum = Random.Range(0, 2);
             if (ranNum == 0)
             {
-                currentTarget = thirdRow[index + 1];
+                currentTarget = seventhRow[index + 1];
             }
             else if (ranNum == 1)
             {
-                currentTarget = secondRow[index];
+                currentTarget = sixthRow[1];
             }
         }
         else if (index == 1)
         {
-            int ranNum = Random.Range(0, 3);
-            if (ranNum == 0)
-            {
-                currentTarget = thirdRow[index + 1];
-            }
-            else if (ranNum == 1)
-            {
-                currentTarget = thirdRow[index - 1];
-            }
-            else if (ranNum == 2)
-            {
-                currentTarget = secondRow[index];
-            }
-        }
-        else if (index == 2)
-        {
             int ranNum = Random.Range(0, 2);
             if (ranNum == 0)
             {
-                currentTarget = thirdRow[index - 1];
+                currentTarget = seventhRow[index - 1];
             }
             else if (ranNum == 1)
             {
-                currentTarget = secondRow[index];
+                currentTarget = sixthRow[2];
             }
         }
     }
