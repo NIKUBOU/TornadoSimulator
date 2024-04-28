@@ -513,7 +513,7 @@ MonoBehaviour:
   - {fileID: 3276577586984117664}
   property: {fileID: 4732942486254382013}
   health: 100
-  healthLossRate: 50
+  healthLossRate: 75
   gameManager: {fileID: 0}
 --- !u!65 &1368663141580329002
 BoxCollider:
@@ -711,7 +711,7 @@ GameObject:
   - component: {fileID: 1549013357108185781}
   - component: {fileID: 4687411939435333069}
   - component: {fileID: 107962903520242760}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: PropertyLine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -752,7 +752,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.69, y: 1, z: 12.36}
+  m_Size: {x: 12.54, y: 1, z: 12.36}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &107962903520242760
 MonoBehaviour:
