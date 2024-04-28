@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7690399637855639272}
   - component: {fileID: 1260129636390843477}
   - component: {fileID: 8130206162047011145}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rock1_Model
   m_TagString: Structure
   m_Icon: {fileID: 0}
@@ -100,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   structures:
   - {fileID: 2870431856656790825}
+  property: {fileID: 0}
   health: 100
   healthLossRate: 50
   gameManager: {fileID: 0}

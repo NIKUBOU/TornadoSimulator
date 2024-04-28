@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1142828592428326927}
   - component: {fileID: 5648928319400204088}
   - component: {fileID: 7019135032165857253}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tree3_Model
   m_TagString: Structure
   m_Icon: {fileID: 0}
@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   structures:
   - {fileID: 7676458748377093590}
+  property: {fileID: 0}
   health: 100
   healthLossRate: 50
   gameManager: {fileID: 0}

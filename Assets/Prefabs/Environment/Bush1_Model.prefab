@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2184467741727707652}
   - component: {fileID: 7292549013170748387}
   - component: {fileID: 372831100252719034}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bush1_Model
   m_TagString: Structure
   m_Icon: {fileID: 0}
@@ -100,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   structures:
   - {fileID: 5992689464734026510}
+  property: {fileID: 0}
   health: 100
   healthLossRate: 50
   gameManager: {fileID: 0}

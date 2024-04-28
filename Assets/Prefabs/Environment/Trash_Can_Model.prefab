@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6432703044307552795}
   - component: {fileID: 7220717292982681666}
   - component: {fileID: 151658735688042715}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trash_Can_Model
   m_TagString: Structure
   m_Icon: {fileID: 0}
@@ -100,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   structures:
   - {fileID: 5438369878514476962}
+  property: {fileID: 0}
   health: 100
   healthLossRate: 50
   gameManager: {fileID: 0}

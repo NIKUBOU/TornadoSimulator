@@ -8,6 +8,7 @@ public class NPCFlight : MonoBehaviour
     [SerializeField] private float characterHeight;
     [SerializeField] private bool groundCheck;
     [SerializeField] private LayerMask groundMask;
+    public GameManager gameManager;
 
     // Start is called before the first frame update
     void Start()
@@ -40,5 +41,6 @@ public class NPCFlight : MonoBehaviour
     {
         gameObject.GetComponent<NPCMovement>().enabled = false;
         gameObject.GetComponent<NavMeshAgent>().enabled = false;
+        gameManager.ReceiveSignal("Signal2");
     }
 }

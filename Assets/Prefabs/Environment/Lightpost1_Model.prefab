@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1875135102548406053}
   - component: {fileID: 3037998650995342423}
   - component: {fileID: 6920812034723928195}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lightpost1_Model
   m_TagString: Structure
   m_Icon: {fileID: 0}
@@ -100,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   structures:
   - {fileID: 6641391591714426530}
+  property: {fileID: 0}
   health: 100
   healthLossRate: 50
   gameManager: {fileID: 0}

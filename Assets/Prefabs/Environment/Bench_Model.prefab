@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7638476582821776100}
   - component: {fileID: 8933090661984615805}
   - component: {fileID: 4980328839515975836}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bench_Model
   m_TagString: Structure
   m_Icon: {fileID: 0}
@@ -102,6 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   structures:
   - {fileID: 1772962479205539806}
+  property: {fileID: 0}
   health: 100
   healthLossRate: 50
   gameManager: {fileID: 0}
@@ -164,7 +165,7 @@ GameObject:
   - component: {fileID: 6260608632472582309}
   - component: {fileID: 4980680546400370323}
   - component: {fileID: 3779240956978501915}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bench.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +248,7 @@ GameObject:
   - component: {fileID: 7018937871772251439}
   - component: {fileID: 4624504950842966088}
   - component: {fileID: 7708651355041078765}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bench.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
