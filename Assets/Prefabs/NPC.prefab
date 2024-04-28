@@ -130,8 +130,6 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 1024
-  gameManager: {fileID: 783260590251878621, guid: 075b5a8da3f1efc4481e5693694fbcb8,
-    type: 3}
 --- !u!114 &6491821245505943331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +146,8 @@ MonoBehaviour:
   cryingTime: 2.5
   emotional: 0
   crying: 0
+  gameManager: {fileID: 783260590251878621, guid: 075b5a8da3f1efc4481e5693694fbcb8,
+    type: 3}
 --- !u!114 &3194556392878829445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,6 +197,7 @@ MonoBehaviour:
   seventhRow:
   - {fileID: 0}
   - {fileID: 0}
+  currentTarget: {fileID: 0}
 --- !u!195 &4803081997096571128
 NavMeshAgent:
   m_ObjectHideFlags: 0
